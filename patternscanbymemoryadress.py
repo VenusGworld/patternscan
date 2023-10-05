@@ -44,7 +44,6 @@ def main():
                     f.write(f"{name}: 0x{client.lpBaseOfDll + address:08X}\n")
 
             for name, address in addresses.items():
-                # Only show the offsets and the path
                 print(f"{name}: 0x{client.lpBaseOfDll + address:08X}")
 
             print(f"Offsets saved to: {output_path}")
