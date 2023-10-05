@@ -6,10 +6,7 @@ With this script ure able to find offsets by using the memadress with patternsca
 - Download the skript
  
 - Install all the reqs.
-- pip install pymem
-- pip install re
-- pip install os
-
+- pip install pymem,re,os
 - Start cs2.exe
 - Open the skript and you should get the aviable offsets.
 - The offsets will be shown in console or saved in "~/Downloads"
