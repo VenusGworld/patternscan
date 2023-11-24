@@ -33,9 +33,7 @@ def main():
 
         start_dumping = input("Do you want to start dumping offsets? (y/n) ").strip().lower()
         if start_dumping == "y":
-            # Remove the message after pressing "y"
-            # print("Finding offsets...")
-
+            
             addresses = find_offsets(pm, clientModule, patterns)
             output_path = os.path.join(os.path.expanduser('~/Downloads'), 'offsets.txt')
             
